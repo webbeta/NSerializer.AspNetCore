@@ -2,6 +2,14 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>ASP.NET Core plugin for NSerializer</Title>
+        <Description>ASP.NET Core plugin for NSerializer</Description>
+        <Copyright>webBeta 2020</Copyright>
+        <PackageProjectUrl>https://github.com/webbeta/NSerializer.AspNetCore</PackageProjectUrl>
+        <PackageLicense>https://raw.githubusercontent.com/webbeta/NSerializer.AspNetCore/master/LICENSE</PackageLicense>
+        <RepositoryUrl>https://github.com/webbeta/NSerializer.AspNetCore</RepositoryUrl>
+        <PackageTags>serializer, dotnet, net core, csharp, yml, yaml, group serialization</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

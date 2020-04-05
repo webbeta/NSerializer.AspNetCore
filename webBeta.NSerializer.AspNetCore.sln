@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webBeta.NSerializer.AspNetCore", "webBeta.NSerializer.AspNetCore\webBeta.NSerializer.AspNetCore.csproj", "{0565DE2A-5EE8-4850-8A40-D887F490C11A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webBeta.NSerializer.AspNetCore", "webBeta.NSerializer.AspNetCore\webBeta.NSerializer.AspNetCore.csproj", "{A0275BB2-128F-4D04-A74C-2BBCA28D850A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0565DE2A-5EE8-4850-8A40-D887F490C11A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0565DE2A-5EE8-4850-8A40-D887F490C11A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0565DE2A-5EE8-4850-8A40-D887F490C11A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0565DE2A-5EE8-4850-8A40-D887F490C11A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0275BB2-128F-4D04-A74C-2BBCA28D850A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0275BB2-128F-4D04-A74C-2BBCA28D850A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0275BB2-128F-4D04-A74C-2BBCA28D850A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0275BB2-128F-4D04-A74C-2BBCA28D850A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

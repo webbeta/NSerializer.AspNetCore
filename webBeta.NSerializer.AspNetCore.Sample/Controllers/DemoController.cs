@@ -22,7 +22,7 @@ namespace webBeta.NSerializer.AspNetCore.Sample.Controllers
         [HttpGet("asok")]
         public ActionResult AsOk()
         {
-            return _serializer.SerializeAndCreated(new Demo(), "ok_group");
+            return _serializer.SerializeAndOk(new Demo(), "ok_group");
         }
     }
 }

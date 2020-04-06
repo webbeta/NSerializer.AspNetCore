@@ -1,0 +1,9 @@
+language: csharp
+dist: bionic
+mono: none
+dotnet: 3.1
+install:
+  - dotnet restore
+script:
+  - dotnet build
+  - dotnet test webBeta.NSerializer.AspNetCore.Test/webBeta.NSerializer.AspNetCore.Test.csproj

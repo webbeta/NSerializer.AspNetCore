@@ -8,5 +8,19 @@
       <ProjectReference Include="..\webBeta.NSerializer.AspNetCore\webBeta.NSerializer.AspNetCore.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Update="appsettings.json">
+        <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="conf\serializer\webBeta.NSerializer.AspNetCore.Sample.Demo.yml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 
 </Project>

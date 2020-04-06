@@ -14,12 +14,14 @@ namespace webBeta.NSerializer.AspNetCore
 
         public bool GetBoolean(string key, bool defaultValue)
         {
+            key = key.Replace(".", ":");
             var conf = _configuration.GetValue<bool?>(key);
             return conf ?? defaultValue;
         }
 
         public string GetString(string key, string defaultValue)
         {
+            key = key.Replace(".", ":");
             var conf = _configuration.GetValue<string>(key);
             return conf ?? defaultValue;
         }

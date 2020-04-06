@@ -7,9 +7,11 @@
         <Description>ASP.NET Core plugin for NSerializer</Description>
         <Copyright>webBeta 2020</Copyright>
         <PackageProjectUrl>https://github.com/webbeta/NSerializer.AspNetCore</PackageProjectUrl>
-        <PackageLicense>LICENSE</PackageLicense>
+        <PackageLicense>MIT</PackageLicense>
         <RepositoryUrl>https://github.com/webbeta/NSerializer.AspNetCore</RepositoryUrl>
         <PackageTags>serializer, dotnet, net core, csharp, yml, yaml, group serialization</PackageTags>
+        <PackageVersion>1.0.1</PackageVersion>
+        <PackageReleaseNotes>Bump webBeta.NSerializer to version 1.0.1</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="webBeta.NSerializer" Version="1.0.0" />
+        <PackageReference Include="webBeta.NSerializer" Version="1.0.1" />
     </ItemGroup>
 
 </Project>

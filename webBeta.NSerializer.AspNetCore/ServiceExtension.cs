@@ -5,7 +5,7 @@ using Microsoft.Extensions.Hosting;
 
 namespace webBeta.NSerializer.AspNetCore
 {
-    public static class Extension
+    public static class ServiceExtension
     {
         public static void AddNSerializer(this IServiceCollection services)
         {

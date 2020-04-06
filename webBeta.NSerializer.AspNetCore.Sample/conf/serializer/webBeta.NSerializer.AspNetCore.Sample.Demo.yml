@@ -1,0 +1,6 @@
+webBeta.NSerializer.AspNetCore.Sample.Demo:
+  properties:
+    CreatedMessage:
+      groups: [created_group]
+    OkMessage:
+      groups: [ok_group]

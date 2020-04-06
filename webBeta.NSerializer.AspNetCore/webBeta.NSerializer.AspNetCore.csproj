@@ -7,7 +7,7 @@
         <Description>ASP.NET Core plugin for NSerializer</Description>
         <Copyright>webBeta 2020</Copyright>
         <PackageProjectUrl>https://github.com/webbeta/NSerializer.AspNetCore</PackageProjectUrl>
-        <PackageLicense>MIT</PackageLicense>
+        <PackageLicenseUrl>https://github.com/webbeta/NSerializer.AspNetCore/blob/master/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/webbeta/NSerializer.AspNetCore</RepositoryUrl>
         <PackageTags>serializer, dotnet, net core, csharp, yml, yaml, group serialization</PackageTags>
         <PackageVersion>1.0.1</PackageVersion>
